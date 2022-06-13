@@ -1,0 +1,25 @@
+{
+  "name": "learning-11ty",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "eleventy --serve --input=src",
+    "build": "eleventy --input=src",
+    "clear": "rm _site -r"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joseph-bravo/learning-11ty.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joseph-bravo/learning-11ty/issues"
+  },
+  "homepage": "https://github.com/joseph-bravo/learning-11ty#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^1.0.1"
+  }
+}
